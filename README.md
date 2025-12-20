@@ -9,12 +9,14 @@ This repository aggregates **club members' dotfiles** via [Git submodules](https
 ## 📂 Structure
 ```bash
 graphics/
-├─ README.md
+├─ dotfiles/
+│     └─ <handle>/ # submodule → https://github.com/<handle>/dotfiles
+├─ wallpapers
+├─ .gitignore
+├─ .gitmodules
 ├─ MANIFEST.yml
 ├─ Makefile
-├─ .gitignore
-└─ dotfiles/
-   └─ <handle>/ # submodule → https://github.com/<handle>/dotfiles
+└─ README.md
 ```
 
 ## 🚀 Quick Start
